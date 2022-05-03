@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-03T10:38:58 IST" name="AspireChallenge" finished-at="2022-05-03T10:40:58 IST" duration-ms="120093">
+    <groups>
+    </groups>
+    <test started-at="2022-05-03T10:38:58 IST" name="Test" finished-at="2022-05-03T10:40:58 IST" duration-ms="120093">
+      <class name="codeChallenge.Automated_Scenarios">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:38:58 IST" name="launchBrowser" finished-at="2022-05-03T10:39:03 IST" duration-ms="5547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Scenario_01()[pri:0, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:39:03 IST" name="Scenario_01" finished-at="2022-05-03T10:40:20 IST" duration-ms="76400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_01 -->
+        <test-method signature="Scenario_02()[pri:1, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:40:20 IST" name="Scenario_02" finished-at="2022-05-03T10:40:28 IST" depends-on-methods="codeChallenge.Automated_Scenarios.Scenario_01" duration-ms="8178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_02 -->
+        <test-method signature="Scenario_03()[pri:2, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:40:28 IST" name="Scenario_03" finished-at="2022-05-03T10:40:36 IST" depends-on-methods="codeChallenge.Automated_Scenarios.Scenario_01" duration-ms="8193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_03 -->
+        <test-method signature="Scenario_04()[pri:3, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:40:36 IST" name="Scenario_04" finished-at="2022-05-03T10:40:43 IST" depends-on-methods="codeChallenge.Automated_Scenarios.Scenario_01" duration-ms="7011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_04 -->
+        <test-method signature="Scenario_05()[pri:4, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:40:43 IST" name="Scenario_05" finished-at="2022-05-03T10:40:47 IST" depends-on-methods="codeChallenge.Automated_Scenarios.Scenario_01" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_05 -->
+        <test-method signature="Scenario_06()[pri:5, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:40:47 IST" name="Scenario_06" finished-at="2022-05-03T10:40:57 IST" depends-on-methods="codeChallenge.Automated_Scenarios.Scenario_01" duration-ms="10495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_06 -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:codeChallenge.Automated_Scenarios@1a482e36]" started-at="2022-05-03T10:40:57 IST" name="flush" finished-at="2022-05-03T10:40:58 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- codeChallenge.Automated_Scenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- AspireChallenge -->
+</testng-results>
